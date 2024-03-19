@@ -130,3 +130,17 @@
   }
  
 }
+
+@media screen and (max-width: 720px) and (max-height: 1520px) {
+  
+
+  /* For the details container */
+  .details-container {
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 20vh; 
+    width: 90%;
+    align-items: center;
+  }
+
+}
