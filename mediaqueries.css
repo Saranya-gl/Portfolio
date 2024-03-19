@@ -1,0 +1,132 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: auto; /* Adjusted to allow flexible height */
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+
+  
+}
+
+@media screen and (max-width: 1200px) {
+  /* Adjustments for smaller screens */
+
+  .project-img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .project-img {
+    width: 100%; /* Ensure image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  /* Adjustments for smaller mobile screens */
+  #contact,
+  footer {
+    height: fit-content;
+    padding-bottom: 2rem; /* Added padding for better spacing */
+  }
+  #profile {
+    height: auto; /* Adjusted to allow flexible height */
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: 37vmax;
+    height: 50vw; /* Adjusted height for better responsiveness */
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+
+  .details-container {
+    padding: 1rem; /* Adjusted padding for small screens */
+    border-radius: 1rem; /* Adjusted border radius for small screens */
+    margin: 15dvw; /* Center the container horizontally */
+    width: 90%;
+    align-items: center; /* Adjusted width for better responsiveness */
+
+  }
+ 
+}
