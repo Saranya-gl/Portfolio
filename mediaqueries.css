@@ -122,10 +122,10 @@
 
   .details-container {
     padding: 1rem; /* Adjusted padding for small screens */
-    border-radius: 1rem; /* Adjusted border radius for small screens */
-    margin: 15dvw; /* Center the container horizontally */
+    border-radius: 1rem; /* Adjusted border radius for small screens */ /* Center the container horizontally */
     width: 90%;
-    align-items: center; /* Adjusted width for better responsiveness */
+    align-items: center;
+    margin: 10vh;/* Adjusted width for better responsiveness */
 
   }
  
